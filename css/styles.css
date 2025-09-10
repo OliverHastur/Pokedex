@@ -1,0 +1,66 @@
+/* Início da Importação da Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Fim da Importação da Fonte */
+
+/* Início Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'oxanium', cursive;
+}
+/* Fim Reset CSS */
+
+/* Início Alteração item Body */
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, #6ab7f5, #fff) ;
+    min-height: 100vh;
+}
+/* Fim Alteração item Body */
+
+/* Início Alteração item Main */
+main {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+/* Fim Alteração item Main */
+
+/* Início Alteração da Imagem Pokedex */
+.pokedex {
+   width: 100%;
+   max-width: 425px;
+}
+/* Fim Alteração da Imagem Pokedex */
+
+/* Início Alteração do Sprite Pokemon */
+.pokemon__image {
+ position: absolute;
+ bottom: 55%;
+ left: 50%;
+ transform: translate(-63%, 20%);
+ height: 18%;
+}
+/* Fim Alteração do Sprite Pokemon */
+
+/* Início Alteração das informações do Pokemon */
+/* Início Alteração do local do nome do Pokemon */
+.pokemon__data{
+    position: absolute;
+    font-weight: 600;
+    color:#aaa;
+    top: 54.5%;
+    right: 27%;
+    font-size: clamp(8px, 5vw, 25px);
+}
+/* Fim Alteração do local do nome do Pokemon */
+
+/* Início Alteração do nome do Pokemon */
+.pokemon__name {
+    color: #3a444d;
+    text-transform: capitalize;
+}
+/* Fim Alteração do Nome do Pokemon */
+/* Fim Alteração das Informações do Pokemon */
